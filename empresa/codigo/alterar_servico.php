@@ -1,7 +1,7 @@
 <?php 
 
   $id = $_POST['id'];
-  $connect = mysqli_connect('localhost','root','','test');
+  $connect = mysqli_connect('127.0.0.1:50018','root','','test');
       
       $verifica = mysqli_query($connect,"SELECT * FROM servico WHERE id = '".$id."'") or die("erro ao selecionar");
 		
