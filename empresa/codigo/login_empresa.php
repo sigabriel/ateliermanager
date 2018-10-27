@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $senha = $_POST['senha'];
 
 
-$connect = mysqli_connect('127.0.0.1','root','','test');
+$connect = mysqli_connect('127.0.0.1','azure','password','50018','test');
 
  
   
