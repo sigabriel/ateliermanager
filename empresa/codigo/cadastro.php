@@ -11,7 +11,7 @@ echo "<script>alert('senha incorreta')</script>";
 echo "<script>window.location.href='../formulario/cadastro.html'</script>";
 }else{
 
-$connect = mysqli_connect('127.0.0.1:50018','root','','test');
+$connect = mysqli_connect('127.0.0.1','root','','test');
 
  
   
